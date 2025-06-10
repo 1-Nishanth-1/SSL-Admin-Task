@@ -64,7 +64,8 @@
 
 ## 8. Docker Fundamentals and Personal Website Deployment
 
-- Created an image on thr basis of nginx using build file then ran it on port 8080.
+- Created an image on thr basis of nginx image.
+- Created DOCKERFILE.
 - Deployed it using nginx in almost the same process as before
 
 ## 9. Ansible Automation in Dockerized Lab Environment
