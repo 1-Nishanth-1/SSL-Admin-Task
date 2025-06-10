@@ -48,8 +48,9 @@
 
 - Installed nginx
 - Watched [this youtube video](https://www.youtube.com/watch?v=9t9Mp0BGnyI) on nginx
-- Used `certbot` to certify my domain for secure connection
-- Downloaded both apps , ran them and configured them on nginx
+- Used `certbot` to certify my domain for secure connection.
+- Downloaded both apps, ran them and configured them on nginx.
+-
 
 ## 6. Database Security
 
@@ -61,16 +62,19 @@
 ## 7. Wireguard
 
 - Installed Wireguard and [followed this video](https://www.youtube.com/watch?v=bVKNSf1p1d0) to setup vpn
+- After I set up the VPN the network was very slow. It took me some time to realize that the port was not allowed in AWS console.
 
 ## 8. Docker Fundamentals and Personal Website Deployment
 
-- Created an image on thr basis of nginx image.
-- Created DOCKERFILE.
-- Deployed it using nginx in almost the same process as before
+- Created an image using the nginx:alpine image.
+- Created a DOCKERFILE for the same purpose and removed the default website and pasted my static html file instead. Used these commands to build and deploy.
+- Deployed it using nginx in almost the same process as before, but in default.conf
 
 ## 9. Ansible Automation in Dockerized Lab Environment
 
 - It took a lot of time to learn ansible referencing various youtube videos and articles until i got the hang of it.
+- I began by creating docker network and 3 docker containers ansible-control, ansible-target-1 and ansible-target-2.
+- Then I configured the ssh connections between them.
 - Configured vim by using the basic.vim given in https://github.com/amix/vimrc.
 - Added aliases like ll and .. into ~/bashrc
 - I didn't get the time to install netdata. :/
